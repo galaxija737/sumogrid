@@ -1,0 +1,26 @@
+@import "settings";
+
+/**
+ * SUMOGRID
+ * @url: http://kloeken.com/
+ */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col {
+  margin-right: $grid-gutter;
+  margin-left: $grid-gutter;
+  display: inline;
+  float: left;
+}
+
+.col_nested {
+  margin-right: -#{$grid-gutter};
+  margin-left: -#{$grid-gutter};
+}
+
+@for $i from 1 through $grid-columns {
+  .col_#{$i} { width: col($i); }
+}
