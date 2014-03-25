@@ -17,4 +17,4 @@ Yes. I published this code under the [MIT](http://opensource.org/licenses/MIT) l
 
 ## Last words?
 
-Love y'all. Happy coding!
+Follow me on [Twitter](http://twitter.com/visualcookie).
