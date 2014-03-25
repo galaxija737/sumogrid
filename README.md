@@ -11,6 +11,9 @@ $grid-gutter: 1.5%; // spaces between each column (right and left).
 $grid-width: 100% / $grid-columns; // you won't have to change this.
 ```
 
+## Todo
+- Media queries, so it's responsive aswell
+
 ## Any License?
 
 Yes. I published this code under the [MIT](http://opensource.org/licenses/MIT) license. You can do what ever you want with the code but have in mind to leave the attribution.
