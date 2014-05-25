@@ -15,4 +15,4 @@ Yes. I published this code under the [MIT](http://opensource.org/licenses/MIT) l
 ## Last words?
 Follow me on [Twitter](http://twitter.com/visualcookie)!
 ***
-I won't update **SUMOGRID** anymore, after I found myself a better grid. Go check out [Jeet.gs](http://jeet.gs/).
+I won't update **SUMOGRID** anymore, after I found a better grid. Go check out [Jeet.gs](http://jeet.gs/).
