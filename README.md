@@ -1,18 +1,32 @@
-# SUMOGRID - a basic sass grid
-**SUMOGRID** is a basic grid system written in SASS with full customization. You can say how many columns you want to use and how big your *gutter* should be. I wrote this basically for me. I don't use any Front-End Frameworks like [Bootstrap](http://getbootstrap.com/) or other because I love writing code by myself that everyone still will understand. If you don't like this, don't use it. If you use it, I love you. You can give me feedback anytime and report some features if you want to have more.
+# sumogrid
 
-## What's in it?
-Basic files. Almost. Most important is the settings file which looks like this:
+This is a basic SCSS function which generates a small and simple grid system for your project.
+
+## Customize
 ```scss
 $grid-columns: 12; // some use more columns some want to use less.
 $grid-gutter: 1.5%; // spaces between each column (right and left).
 $grid-width: 100% / $grid-columns; // you won't have to change this.
 ```
 
-## Any License?
-Yes. I published this code under the [MIT](http://opensource.org/licenses/MIT) license. You can do what ever you want with the code but have in mind to leave the attribution.
+## The MIT License (MIT)
 
-## Last words?
-Follow me on [Twitter](http://twitter.com/visualcookie)!
-***
-I won't update **SUMOGRID** anymore, after I found a better grid. Go check out [Jeet.gs](http://jeet.gs/).
+### Copyright (c) 2014 Dean Hidri
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
